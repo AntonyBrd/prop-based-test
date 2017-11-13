@@ -40,7 +40,7 @@ Let's see an example, given by Hypothesis in their official [Github](https://git
 
 This example shows how to test a very simple operation: encoding and decoding a list of integers. 
 
-```python
+```python encoding_functions https://github.com/HypothesisWorks/hypothesis-python/blob/master/examples/test_rle.py source
 def run_length_encode(seq):
     """Encode a sequence as a new run-length encoded sequence."""
     result = [[seq[0], 0]]
